@@ -8,8 +8,8 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.7'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+gem 'pg'
+gem 'kaminari'
 # active_model_serializer
 gem 'active_model_serializers'
 # Use Puma as the app server
@@ -36,6 +36,10 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+gem 'simple_token_authentication'
+gem 'paper_trail'
+gem 'strong_struct'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
