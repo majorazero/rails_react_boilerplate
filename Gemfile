@@ -8,6 +8,7 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.7'
+gem 'sqlite3'
 gem 'pg'
 gem 'kaminari'
 # active_model_serializer
